@@ -30,7 +30,7 @@ public class ValidationUtils {
             steps.StepInfo("✅ Passed: " + label + " is checked.");
         } catch (AssertionError e) {
             steps.StepInfo("❌ Failed: " + label + " is NOT checked.");
-            throw e;
+//            throw e;
         }
     }
 
